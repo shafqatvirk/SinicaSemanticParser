@@ -1,0 +1,183 @@
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:Description rdf:about="http://sentic.net/challenge/sentence">
+<sentence xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/challenge/sentence">
+<text xmlns="http://sentic.net/challenge/" rdf:datatype="http://www.w3.org/TR/rdf-text/">
+I want to start by saying Fred Flare- shipped this product very fast.
+</text>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/shipped_{when}_very_fast"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/shipped_this_product"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/I_want"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/shipped_Fred_Flare"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/start_saying_Fred_Flare_-_shipped_this_product_very_fast"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/{manner}_saying_Fred_Flare_-_shipped_this_product_very_fast"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/Fred_Flare"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/saying_Fred_Flare_-_shipped_this_product_very_fast"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/{time}_very_fast"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/Fred_Flare_-_shipped_this_product_very_fast"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/this_product"/>
+</sentence>
+<sentence xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/challenge/sentence">
+<text xmlns="http://sentic.net/challenge/" rdf:datatype="http://www.w3.org/TR/rdf-text/">
+And the transaction itself was very smooth.
+</text>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/was_the_transaction"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/itself"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/was_itself"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/was_very_smooth"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/very_smooth"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/the_transaction"/>
+</sentence>
+<sentence xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/challenge/sentence">
+<text xmlns="http://sentic.net/challenge/" rdf:datatype="http://www.w3.org/TR/rdf-text/">
+I do however, have extreme problems with the product itself.
+</text>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/I_do"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/have_extreme_problems_the_product"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/however"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/extreme_problems_the_product"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/itself_have"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/do_however"/>
+</sentence>
+<sentence xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/challenge/sentence">
+<text xmlns="http://sentic.net/challenge/" rdf:datatype="http://www.w3.org/TR/rdf-text/">
+The product is not leather, its nylon, and it sort of looks cheap?
+</text>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/sort"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/is_{negation}_not"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/looks_cheap"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/is_leather_,_its_nylon"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/cheap"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/{negation}_not"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/leather_,_its_nylon"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/it_looks"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/looks_sort"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/The_product_is"/>
+</sentence>
+<sentence xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/challenge/sentence">
+<text xmlns="http://sentic.net/challenge/" rdf:datatype="http://www.w3.org/TR/rdf-text/">
+The inside material is sued, but that's only the lining for the base of the wallet.
+</text>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/The_inside_material"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/The_inside_material_sued"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/is_The_inside_material"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/only"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/'s_the_lining_the_base_the_wallet"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/'s_only"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/the_lining_the_base_the_wallet"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/that_'s"/>
+</sentence>
+<sentence xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/challenge/sentence">
+<text xmlns="http://sentic.net/challenge/" rdf:datatype="http://www.w3.org/TR/rdf-text/">
+Also, The wallet part is very hard to use.
+</text>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/very_hard"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/Also"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/is_very_hard"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/The_wallet_part_is"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/is_Also"/>
+</sentence>
+<sentence xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/challenge/sentence">
+<text xmlns="http://sentic.net/challenge/" rdf:datatype="http://www.w3.org/TR/rdf-text/">
+You cant really put too much in the wallet- The credit card slots are a little too snug, and there is no place for my I.D.
+</text>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/You_put"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/there"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/are_a_little_too_snug"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/is_no_place_my_I.D."/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/put_the_wallet"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/are_The_credit_card_slots"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/the_wallet"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/{manner}_too_much"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/is_there"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/put_too_much"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/put_really"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/put_{when}_cant"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/The_credit_card_slots"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/a_little_too_snug"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/no_place_my_I.D."/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/{time}_cant"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/really"/>
+</sentence>
+<sentence xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/challenge/sentence">
+<text xmlns="http://sentic.net/challenge/" rdf:datatype="http://www.w3.org/TR/rdf-text/">
+The wallet included a small note
+</text>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/a_small_``_note_book_''"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/The_wallet"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/fit_{negation}_n't"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/it"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/fit_{in}_the_wallet"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/fit_also"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/{location}_the_wallet"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/also"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/included_The_wallet"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/does_{negation}_n't"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/does_also"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/included_a_small_``_note_book_''"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/fit_it"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/{negation}_n't"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/it_does"/>
+</sentence>
+<sentence xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/challenge/sentence">
+<text xmlns="http://sentic.net/challenge/" rdf:datatype="http://www.w3.org/TR/rdf-text/">
+I was very excited about this product, but now I feel duped.
+</text>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/{time}_this_product"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/I_feel"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/I"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/feel_{when}_now"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/was_I"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/very_excited"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/{time}_now"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/feel_duped"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/was_very_excited"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/duped"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/was_{when}_this_product"/>
+</sentence>
+<sentence xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/challenge/sentence">
+<text xmlns="http://sentic.net/challenge/" rdf:datatype="http://www.w3.org/TR/rdf-text/">
+The pictures made the wallet seem like it was of higher quality, and that it was user friendly, but it's not.
+</text>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/the_wallet_seem_it_was_higher_quality_,"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/made_it_was_user_friendly"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/it"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/user_friendly"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/seem_it_was_higher_quality_,_and_it_was_user_friendly"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/{manner}_higher_quality_,"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/made_the_wallet_seem_it_was_higher_quality_,"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/The_pictures_made"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/was_it"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/was_higher_quality_,"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/{manner}_higher_quality_,_and_it_was_user_friendly"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/it_'s"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/the_wallet_seem_it_was_higher_quality_,_and_it_was_user_friendly"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/it_was_higher_quality_,_and_it_was_user_friendly"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/{negation}_not"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/seem_it_was_user_friendly"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/it_was_user_friendly"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/was_higher_quality_,_and_it_was_user_friendly"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/was_it_was_user_friendly"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/{manner}_it_was_user_friendly"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/was_user_friendly"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/'s_{negation}_not"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/it_was_higher_quality_,"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/it_was"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/made_the_wallet_seem_it_was_higher_quality_,_and_it_was_user_friendly"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/the_wallet_seem"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/seem_it_was_higher_quality_,"/>
+</sentence>
+<sentence xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/challenge/sentence">
+<text xmlns="http://sentic.net/challenge/" rdf:datatype="http://www.w3.org/TR/rdf-text/">
+I do not recommend this product
+</text>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/recommend_{negation}_not"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/{negation}_not"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/do_recommend_this_product"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/recommend_this_product"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/do_{negation}_not"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/I_do"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/I_recommend"/>
+<semantics xmlns="http://sentic.net/challenge/" rdf:resource="http://sentic.net/api/en/concept/this_product"/>
+</sentence>
+</rdf:Description>
+</rdf:RDF>

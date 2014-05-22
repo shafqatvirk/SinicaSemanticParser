@@ -1,0 +1,7 @@
+h=not h_pos=RB path=RBVPVBP t_word_pls_pt=doRB t_word_pls_h_word=donot distance_pls_t_word=3do ?
+h=no-h h_pos=no-h-pos path=VPVPVBP t_word_pls_pt=doVP t_word_pls_h_word=dono-h distance_pls_t_word=3do ?
+h=I h_pos=PRP path=NPSVPVBP t_word_pls_pt=doNP t_word_pls_h_word=doI distance_pls_t_word=4do ?
+h=product h_pos=NN path=NPVPVB t_word_pls_pt=recommendNP t_word_pls_h_word=recommendproduct distance_pls_t_word=3recommend ?
+h=do h_pos=VBP path=VBPVPVPVB t_word_pls_pt=recommendVBP t_word_pls_h_word=recommenddo distance_pls_t_word=4recommend ?
+h=not h_pos=RB path=RBVPVPVB t_word_pls_pt=recommendRB t_word_pls_h_word=recommendnot distance_pls_t_word=4recommend ?
+h=I h_pos=PRP path=NPSVPVPVB t_word_pls_pt=recommendNP t_word_pls_h_word=recommendI distance_pls_t_word=5recommend ?

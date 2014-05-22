@@ -1,0 +1,14 @@
+do not ARGM-NEG 0.9793
+
+do recommend_this_product ARG2 0.2601
+
+do I ARG0 0.9822
+
+recommend this_product ARG1 0.9495
+
+recommend do ARGM-MOD 0.1541
+
+recommend not ARGM-NEG 0.9739
+
+recommend I ARG0 0.9913
+

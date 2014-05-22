@@ -1,0 +1,7 @@
+h=not h_pos=RB h_word=not h_word_pos=RB path=RBVPVBP t_word_pls_pt=doRB t_word_pls_h_word=donot subcat=VPVBPRBVP subcatAt=RB subcatStar=VPVBPRBVP ?
+h=no-h h_pos=no-h-pos h_word=no-h h_word_pos=no-h-pos path=VPVPVBP t_word_pls_pt=doVP t_word_pls_h_word=dono-h subcat=VPVBPRBVP subcatAt=VPVBNP subcatStar=VPVBPRBVP ?
+h=I h_pos=PRP h_word=I h_word_pos=PRP path=NPSVPVBP t_word_pls_pt=doNP t_word_pls_h_word=doI subcat=VPVBPRBVP subcatAt=NPPRP subcatStar=SNPVP ?
+h=product h_pos=NN h_word=product h_word_pos=NN path=NPVPVB t_word_pls_pt=recommendNP t_word_pls_h_word=recommendproduct subcat=VPVBNP subcatAt=NPDTNN subcatStar=VPVBNP ?
+h=do h_pos=VBP h_word=do h_word_pos=VBP path=VBPVPVPVB t_word_pls_pt=recommendVBP t_word_pls_h_word=recommenddo subcat=VPVBNP subcatAt=VBP subcatStar=VPVBPRBVP ?
+h=not h_pos=RB h_word=not h_word_pos=RB path=RBVPVPVB t_word_pls_pt=recommendRB t_word_pls_h_word=recommendnot subcat=VPVBNP subcatAt=RB subcatStar=VPVBPRBVP ?
+h=I h_pos=PRP h_word=I h_word_pos=PRP path=NPSVPVPVB t_word_pls_pt=recommendNP t_word_pls_h_word=recommendI subcat=VPVBNP subcatAt=NPPRP subcatStar=SNPVP ?
