@@ -30,7 +30,7 @@ public class ConceptExtractorBatchClient
 	
 		try
         {	
-			
+			//System.out.println("Debug: Entered try."); //Andy add 20140522 for debug
 			//File dir = new File("../input");
 			//File[] directoryListing = dir.listFiles();
 			//if (directoryListing != null) {
@@ -44,7 +44,7 @@ public class ConceptExtractorBatchClient
 			outputFileWriter.println("<rdf:Description rdf:about=\"http://sentic.net/challenge/sentence\">");
 			outputFileWriter.close();
 			String sent;
-			System.out.println("Processing......");
+			System.out.println("Processing....");
 			while ((sent = inputReader.readLine()) != null)
 			{
 			//System.out.println("Sentence: "+sent);
@@ -65,7 +65,18 @@ public class ConceptExtractorBatchClient
 			String serverResponse = fromServer.readLine();
 			//System.out.println(serverResponse);
 			Runtime rlabeler = Runtime.getRuntime();
-            String srlClassifier = "python concept-formulator.py " + '"'+sent+'"' ;
+
+			//----VVVV--- Andy Lee add 20140522 for transfering sentence to python program.
+			File wfile2 = new File("../temp/sent-output.txt");
+        	BufferedWriter wr2 = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(wfile2),"UTF-8"));
+        	String toFileString = sent;
+        	wr2.write(toFileString);
+        	wr2.flush();
+        	wr2.close();
+        	//----^^^^--- Andy Lee add 20140522 for transfering sentence to python program.
+
+            //String srlClassifier = "python concept-formulator2.py " + '"'+sent+'"' ;
+			String srlClassifier = "python concept-formulator.py " + '"'+sent+'"' ;
 			Process p = rlabeler.exec(srlClassifier);
             BufferedReader br = new BufferedReader(new InputStreamReader(p.getInputStream()));
             p.waitFor();
@@ -101,6 +112,8 @@ public class ConceptExtractorBatchClient
 		String cause = e.getMessage();
 		if (cause.equals("python: not found"))
 			System.out.println("No python interpreter found.");
+		else
+			System.out.println("Error: "+cause); //Andy add 20140522 for error handling.
         }
     }
 }

@@ -84,9 +84,9 @@ def my_flatten(node,flat_list):
 	return flat_list	 
 
 if __name__ == "__main__":
-    HOST, PORT = "localhost", 19999
+    HOST, PORT = "localhost", 19997
 
-    # Create the server, binding to localhost on port 9999
+    # Create the server, binding to localhost on port 19997
     server = SocketServer.TCPServer((HOST, PORT), MyTCPHandler)
 	
 	

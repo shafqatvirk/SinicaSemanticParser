@@ -17,36 +17,7 @@ def build(sent):
 							if label.rstrip() == 'ARG0':
 									arg_list2.append(flat_arg_str+'_'+pred_lemma)
 									#arg_list2.append(flat_arg_str)
-							elif label.rstrip() == 'ARGM-COM':
-									arg_list2.append(pred_lemma+'_{with}_'+flat_arg_str)
-									arg_list2.append(flat_arg_str)
-							elif label.rstrip() == 'ARGM-LOC':
-									arg_list2.append(pred_lemma+'_{in}_'+flat_arg_str)
-									arg_list2.append('{location}_'+flat_arg_str)
-							elif label.rstrip() == 'ARGM-DIR':
-									arg_list2.append(pred_lemma+'_{direction}_'+flat_arg_str)
-									arg_list2.append('{direction}_'+flat_arg_str)
-							elif label.rstrip() == 'ARGM-PRP':
-									arg_list2.append(pred_lemma+'_{in_order_to}_'+flat_arg_str)
-									arg_list2.append(flat_arg_str)
-							elif label.rstrip() == 'ARGM-CAU':
-									arg_list2.append(pred_lemma+'_{because}_'+flat_arg_str)
-									arg_list2.append('{cause}_'+flat_arg_str)
-							elif label.rstrip() == 'ARGM-NEG':
-									arg_list2.append(pred_lemma+'_{negation}_'+flat_arg_str)
-									arg_list2.append('{negation}_'+flat_arg_str)
-							elif label.rstrip() == 'ARGM-GOL':
-									arg_list2.append(pred_lemma+'_'+flat_arg_str)
-									arg_list2.append('{goal}'+flat_arg_str)
-							elif label.rstrip() == 'ARGM-MNR':
-									arg_list2.append(pred_lemma+'_'+flat_arg_str)
-									arg_list2.append('{manner}_'+flat_arg_str)
-							elif label.rstrip() == 'ARGM-TMP':
-									arg_list2.append(pred_lemma+'_{when}_'+flat_arg_str)
-									arg_list2.append('{time}_'+flat_arg_str)
-							elif label.rstrip() == 'ARGM-EXT':
-									arg_list2.append(pred_lemma+'_{by}_'+flat_arg_str)
-									arg_list2.append(flat_arg_str)
+							
 							else:
 									arg_list2.append(pred_lemma+'_'+flat_arg_str)
 									arg_list2.append(flat_arg_str)

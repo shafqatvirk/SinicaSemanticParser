@@ -22,7 +22,7 @@ The system requires at least Java, Python, Stanford Parser, and apache-opennlp. 
 	- Java version 1.8.0
 	- Python 2.7.5
 
-4. Linux Server
+4. Linux (ubuntu 12.04)
 	- Java 1.7 update 55
 	- Python 2.7.3
 	

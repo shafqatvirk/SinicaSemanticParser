@@ -113,7 +113,16 @@ public class ConceptExtractorServer {
 		
 		Tree tree = parser.parse(sentence); 
 		//System.out.println(tree);
-			
+
+		//----VVVV--- Andy Lee add 20140522 for transfering tree to python program.
+		File wfile1 = new File("../temp/parser-output.txt");
+        BufferedWriter wr1 = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(wfile1),"UTF-8"));
+        String toFileString = ""+tree;
+        wr1.write(toFileString);
+        wr1.flush();
+        wr1.close();
+        //----^^^^--- Andy Lee add 20140522 for transfering tree to python program.
+
 		//System.out.println("Extracting features...");
 		//String srlIdentifier = "python srl-identifier.py " + '"'+tree+'"' ;
 		String srlIdentifier = "python featureExtractorClient.py " + '"'+tree+'"' ;
