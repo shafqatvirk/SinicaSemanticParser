@@ -156,7 +156,7 @@ public class ConceptExtractorServer {
 			identifierOutput.close();
 			classifierOutput.close();
 			
-		System.out.println("Serverd!");
+		//System.out.println("Serverd!");
         String returnCode = "Concepts:" + (char) 13;
         BufferedOutputStream os = new BufferedOutputStream(connection.getOutputStream());
         OutputStreamWriter osw = new OutputStreamWriter(os, "US-ASCII");
@@ -170,7 +170,7 @@ public class ConceptExtractorServer {
 			System.out.println("No python interpreter found.");
         }
 		
-		System.out.println("Waiting.....");
+		//System.out.println("Waiting.....");
 		
      } 
     }

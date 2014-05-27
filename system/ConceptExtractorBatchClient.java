@@ -75,8 +75,8 @@ public class ConceptExtractorBatchClient
         	wr2.close();
         	//----^^^^--- Andy Lee add 20140522 for transfering sentence to python program.
 
-            //String srlClassifier = "python concept-formulator2.py " + '"'+sent+'"' ;
-			String srlClassifier = "python concept-formulator.py " + '"'+sent+'"' ;
+            String srlClassifier = "python concept-formulator2.py " + '"'+sent+'"' ;
+			//String srlClassifier = "python concept-formulator.py " + '"'+sent+'"' ;
 			Process p = rlabeler.exec(srlClassifier);
             BufferedReader br = new BufferedReader(new InputStreamReader(p.getInputStream()));
             p.waitFor();
